@@ -1,0 +1,82 @@
+
+
+/* Big tablets to 1200px (widths smaller than the 1140px row)    */
+@media only screen and (max-width: 1200px) {
+    
+    .row { padding: 0 2%; }
+    
+    .notify {
+    padding-top: 110px;
+    padding-left: 170px;
+    width: 50%;
+    }
+    
+}
+/*Small tablets to Big tablets from 768px to 1023px    */
+@media only screen and (max-width: 1023px) {
+    
+    .row { padding: 0 4%; }
+    .customer-img1,
+    .customer-img2,
+    .customer-img3,
+    .customer-img4 { height: 70%;}
+    
+    .notify {
+    padding-left: 80px;
+    width: 50%;
+    }
+
+    .section-updates p{
+    width: 300px; 
+    }
+
+}
+/* Small phones to small tablets 481px to 767px   */
+@media only screen and (max-width: 767px) {
+    
+    .customer-img1,
+    .customer-img2,
+    .customer-img3,
+    .customer-img4 { 
+        height: 40%;
+        width: 7%;
+    }
+    
+    .notify {
+    padding-left: 50px;
+    width: 50%;
+    }
+    
+    .features .col {padding: 0 10px;}
+    
+    .features h2 {
+        height: 60px;
+    }
+    
+    .section-updates .col {
+        width: 100%;
+    }
+    
+    .section-updates .col:first-child {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+}
+
+/*Small phone: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+    .notify {
+        padding-top: 170px; 
+        padding-left: 10px;
+        width: 50%;
+    }
+    
+    .features .col { padding-bottom: 30px;}
+    
+    .features img { margin-bottom: 3px;}
+    
+    .features h2 {height: auto;}
+}
+

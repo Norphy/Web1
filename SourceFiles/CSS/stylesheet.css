@@ -87,9 +87,11 @@ h2 {
 /* Intro Section */
 /* ---------------------*/
 
-.intro {
+header {
     background-image: url(IMG/Header-Background.png);
-    height: 430px;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
     
     
 }
@@ -97,7 +99,7 @@ h2 {
 .notify {
     padding-top: 110px;
     padding-left: 250px;
-    width: 65%;
+    width: 53%;
 }
 
 .notify h2 {
@@ -147,8 +149,7 @@ h2 {
 
 .section-updates p{
     display: inline-block;
-    width: 370px;
-    
+    width: 370px; 
 }
 
 .section-updates form {
@@ -205,6 +206,7 @@ h2 {
 
 .section-testimonials blockquote {
     font-style: italic;
+    text-align: center;
 }
 
 .section-testimonials blockquote:before {
@@ -213,88 +215,38 @@ h2 {
     display: inline-block;
 }
 
-.customer-img1 {
-    margin-top: 60px;
+.customer-img1 {background-image: url(IMG/Customer1.jpg);}
+
+.customer-img1:hover {background-image:linear-gradient(rgba(46, 204, 113, 0.7),  rgba(46, 204, 113, 0.7)),url(IMG/Customer1.jpg);}
+
+.customer-img2 { background-image:url(IMG/Customer2.jpg);}
+
+.customer-img2:hover {background-image:linear-gradient(rgba(46, 204, 113, 0.7), rgba(46, 204, 113, 0.7)), url(IMG/Customer2.jpg);}
+
+.customer-img3 {background-image:url(IMG/Customer3.jpg);}
+
+.customer-img3:hover { background-image: linear-gradient( rgba(46, 204, 113, 0.7), rgba(46, 204, 113, 0.7)), url(IMG/Customer3.jpg);}
+
+.customer-img4 {background-image: url(IMG/Customer4.jpg);}
+
+.customer-img4:hover {background-image:linear-gradient(rgba(46, 204, 113, 0.7), rgba(46, 204, 113, 0.7)), url(IMG/Customer4.jpg);}
+
+.customer-img1,
+.customer-img2,
+.customer-img3,
+.customer-img4 {     
     display: inline-block;
-    height: 60px;
-    width: 100px;
-    background-image: url(IMG/Customer1.jpg);
+    width: 7.5%;
+    height: 100%;
     background-size: cover;
+    image-orientation: center;
 }
 
-.customer-img1:hover {
-    margin-top: 60px;
-    display: inline-block;
+.custimg { 
     height: 60px;
-    width: 100px;
-    background-image:
-      linear-gradient(
-      rgba(46, 204, 113, 0.7), 
-      rgba(46, 204, 113, 0.7)
-    ), url(IMG/Customer1.jpg);
-    background-size: cover;
-    transition: background 5s;
+margin-top: 30px;
 }
 
-.customer-img2 {
-    display: inline-block;
-    height: 60px;
-    width: 80px;
-    background-image:url(IMG/Customer2.jpg);
-    background-size: cover;
-}
-
-.customer-img2:hover {
-    display: inline-block;
-    height: 60px;
-    width: 80px;
-    background-image:
-      linear-gradient(
-      rgba(46, 204, 113, 0.7), 
-      rgba(46, 204, 113, 0.7)
-    ), url(IMG/Customer2.jpg);
-    background-size: cover;
-}
-
-.customer-img3 {
-    display: inline-block;
-    height: 60px;
-    width: 80px;
-    background-image:url(IMG/Customer3.jpg);
-    background-size: cover;
-}
-
-.customer-img3:hover {
-    display: inline-block;
-    height: 60px;
-    width: 80px;
-    background-image:
-      linear-gradient(
-      rgba(46, 204, 113, 0.7), 
-      rgba(46, 204, 113, 0.7)
-    ), url(IMG/Customer3.jpg);
-    background-size: cover;
-}
-
-.customer-img4 {
-    display: inline-block;
-    height: 60px;
-    width: 90px;
-    background-image: url(IMG/Customer4.jpg);
-    background-size: cover;
-}
-
-.customer-img4:hover {
-    display: inline-block;
-    height: 60px;
-    width: 90px;
-    background-image:
-      linear-gradient(
-      rgba(46, 204, 113, 0.7), 
-      rgba(46, 204, 113, 0.7)
-    ), url(IMG/Customer4.jpg);
-    background-size: cover;
-}
 
 
 /* ---------------------*/
